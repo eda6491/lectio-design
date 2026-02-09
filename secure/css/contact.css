@@ -1,0 +1,134 @@
+@charset 'UTF-8';
+
+/*
+  Contact Styles
+-------------------------------------------------------------------- */
+body {
+  background: url(../../img/bg_5.webp) center center / cover no-repeat fixed;
+}
+
+#contents {
+  width: 800px;
+  text-align: left;
+  margin: 172px auto 50px;
+}
+
+#contents .con_inner {
+  width: 642px;
+  padding: 40px 79px;
+  margin: 0 0 0;
+  background: rgba(255, 255, 255, 0.6);
+
+}
+
+#contents .con_inner h3 { padding: 0 0 26px; }
+
+#contents .con_inner p {
+  font-size: 12px;
+  width: 642px;
+  color: #000;
+  margin: 0 0 0;
+}
+
+#contents .con_inner p.under { text-align: right; }
+
+#contents .con_inner .name {
+  width: 642px;
+  text-align: right;
+  margin: 35px 0 0 0;
+}
+
+#contents .con_inner p a { color: #4c7519; }
+
+#contents .con_inner p.btn { text-align: center; }
+
+table#table-01 {
+  width: 642px;
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-size: 12px;
+  margin: 20px 0;
+}
+
+table#table-01 .grey {
+  color: #cccccc;
+  display: block;
+  font-size: 0.9em;
+  margin-bottom: 0.5em;
+}
+
+table#table-01 th {
+  padding: 10px 0 10px 20px;
+  border: #aeaeae dotted;
+  border-width: 0 0 1px 0;
+  background: #FFF;
+  text-align: left;
+  width: 25%;
+}
+
+table#table-01 td {
+  padding: 10px;
+  border: #aeaeae dotted;
+  border-width: 0 0 1px 0;
+  background: #FFF;
+  text-align: left;
+}
+
+.wpcf7-not-valid-tip-no-ajax {
+  display: block;
+  margin: 5px 0 0 0;
+  color: #4c7519;
+}
+
+.wpcf7-response-output {
+  font-size: 14px;
+  font-weight: bold;
+  color: #4c7519;
+  display: block;
+  margin: 15px 0 0 0;
+}
+
+/* -------------------------------------
+  Form Style - Add 201802
+-------------------------------------- */
+input[type="text"], textarea {
+  appearance: none;
+  -webkit-apperance: none;
+  padding: 0.75em;
+  width: 80%;
+  border: solid 1px #ededed;
+  outline: 0;
+  transition: 0.3s ease-out;
+}
+
+input[type="text"]:focus, textarea:focus { background-color: #f2ffe6; }
+
+.btn-style {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 230px;
+  height: 35px;
+  background-color: #000000;
+  border: solid 1px #ffffff;
+  font-size: 14px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.asterisk { color: #ff0000; }
+
+/*
+  Contact Styles - Add 202602
+-------------------------------------- */
+#contents .con_inner .df {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 0 26px;
+}
+#contents .con_inner .df h3 { padding: 0; }
+#contents .con_inner .df a {
+  display: block;
+  transition: all .3s;
+}
+#contents .con_inner .df a:hover { opacity: .5; }

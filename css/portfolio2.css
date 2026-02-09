@@ -1,0 +1,148 @@
+@charset "UTF-8";
+
+/*
+  Portfolio2 Styles
+-------------------------------------------------------------------- */
+#contents {
+  right: 0;
+  margin: 100px;
+  position: absolute;
+  top: 0;
+  width: 260px;
+  z-index: 9999;
+}
+
+#maincontent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 50;
+  width: 100%;
+}
+
+#arrow_left, #arrow_right {
+  /* bottom:30px; */
+  top: 50%;
+  margin-top: -16px;
+  height: 32px;
+  position: absolute;
+  right: 20px;
+  width: 32px;
+  z-index: 1000;
+}
+
+#arrow_left { left: 20px; }
+
+/*
+#arrow_left:hover, #arrow_right:hover {}
+#arrow_left:active, #arrow_right:active {}
+*/
+
+div#footerwaku {
+  bottom: 5px;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+
+div#footer3 {
+  margin: 6px auto 0;
+  padding: 0;
+  width: 960px;
+  line-height: 0;
+}
+
+div#footer3 .privacypolicy {
+  margin: 0 0 0 16px;
+  padding: 0;
+  float: left;
+  height: 19px;
+
+}
+
+div#footer3 .copyright {
+  margin: 0 17px 0 0;
+  padding: 0;
+  float: right;
+  height: 19px;
+}
+
+/* Position Maximage relatively (this is not default)
+#maximage {
+  position: relative !important;
+}
+*/
+
+/* Use specific transition for fx: 'slideHorz' */
+div.mc-image {
+  -webkit-transition: left 1s ease-in-out;
+  -moz-transition: left 1s ease-in-out;
+  -o-transition: left 1s ease-in-out;
+  transition: left 1s ease-in-out;
+}
+
+img.bgmaximage { position: fixed !important; }
+
+.in-slide-content {
+  left: 0;
+  margin: 80px;
+  position: absolute;
+  top: 0;
+  width: 260px;
+  z-index: 9999;
+  /* Show above .gradient */
+  display: block;
+  text-align: left;
+}
+
+.in-slide-content p {
+  font-size: 30px;
+  color: #FFF;
+  font-weight: bold;
+  margin: 0 0 15px;
+}
+
+.in-slide-content .list { margin: 0 0 10px; }
+
+#acMenu dt {
+  display: block;
+  width: 260px;
+  height: 40px;
+  cursor: pointer;
+}
+
+#acMenu dd {
+  width: 260px;
+  height: 191px;
+  display: none;
+}
+
+#acMenu dd.h380 {
+  width: 260px;
+  height: 380px;
+  display: none;
+}
+
+#acMenu dd.h430 {
+  width: 260px;
+  height: 430px;
+  display: none;
+}
+
+#acMenu dd.h239 {
+  width: 260px;
+  height: 239px;
+  display: none;
+}
+
+#acMenu dd.h390 {
+  width: 260px;
+  height: 390px;
+  display: none;
+}
+
+#acMenu dd.h195 {
+  width: 260px;
+  height: 195px;
+  display: none;
+}

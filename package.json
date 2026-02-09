@@ -1,0 +1,20 @@
+{
+  "name": "lectio.co.jp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "//": "onchange 'views' -- run-p build:*",
+    "//": "ejs-cli -b views/ '**/*.ejs' -e 'partials/' -o ./",
+    "//": "ejs-cli -b views/en/ '**/*.ejs' -e 'partials/' -o ./en",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ejs-cli": "^2.2.3",
+    "npm-run-all2": "^8.0.4",
+    "onchange": "^7.1.0"
+  }
+}

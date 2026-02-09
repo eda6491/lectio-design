@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+@import url('about_common.css');
+
+/*
+  Vision Styles
+-------------------------------------------------------------------- */
+#contents .con_inner .con {
+  width: 642px;
+  margin: 0 0 30px;
+}
+
+#contents .con_inner .con img {
+  width: 34px;
+  float: left;
+}
+
+#contents .con_inner .con p {
+  width: 590px;
+  float: right;
+  font-size: 16px;
+  color: #000;
+}
+
+#contents .con_inner .under {
+  width: 642px;
+  text-align: center;
+}
+
+#contents .con_inner .under img { margin-bottom: 15px; }
+
+#contents .con_inner .name {
+  width: 642px;
+  text-align: right;
+  margin: 35px 0 0 0;
+}

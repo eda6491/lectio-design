@@ -1,0 +1,335 @@
+@charset "UTF-8";
+
+/* ====================================================================
+
+  Reset Styles
+
+==================================================================== */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre,
+form, fieldset, input, textarea, p, blockquote, th, td {
+  margin: 0;
+  padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+address, caption, cite, code, dfn, em, th, var {
+  font-style: normal;
+  font-weight: normal;
+}
+ul {
+  list-style: none;
+}
+
+* html ol li {
+  margin-left: 25px;
+}
+*+html ol li {
+  margin-left: 25px;
+}
+ol li ul li {
+  margin-left: 0;
+}
+fieldset, img {
+  border: 0;
+}
+a {
+  outline: none;
+}
+img {
+  vertical-align: top;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+tr {
+  vertical-align: top;
+}
+caption, th {
+  text-align:left;
+}
+abbr, acronym {
+  border: 0;
+}
+sup {
+  vertical-align: 2px;
+}
+sub {
+  vertical-align: bottom;
+}
+iframe {
+  border:0;
+}
+
+
+/* ====================================================================
+
+  General Purpose
+
+==================================================================== */
+
+/*
+  Margin
+-------------------------------------------------------------------- */
+.mt00 {margin-top: 0 !important;}
+.mt05 {margin-top: 5px !important;}
+.mt10 {margin-top: 10px !important;}
+.mt15 {margin-top: 15px !important;}
+.mt20 {margin-top: 20px !important;}
+.mt25 {margin-top: 25px !important;}
+.mt30 {margin-top: 30px !important;}
+.mt35 {margin-top: 35px !important;}
+.mt40 {margin-top: 40px !important;}
+
+.mb00 {margin-bottom: 0 !important;}
+.mb05 {margin-bottom: 5px !important;}
+.mb10 {margin-bottom: 10px !important;}
+.mb15 {margin-bottom: 15px !important;}
+.mb20 {margin-bottom: 20px !important;}
+.mb25 {margin-bottom: 25px !important;}
+.mb30 {margin-bottom: 30px !important;}
+.mb35 {margin-bottom: 35px !important;}
+.mb40 {margin-bottom: 40px !important;}
+
+.ml00 {margin-left: 0 !important;}
+.ml05 {margin-left: 5px !important;}
+.ml10 {margin-left: 10px !important;}
+.ml15 {margin-left: 15px !important;}
+.ml20 {margin-left: 20px !important;}
+.ml25 {margin-left: 25px !important;}
+.ml30 {margin-left: 30px !important;}
+.ml35 {margin-left: 35px !important;}
+.ml40 {margin-left: 40px !important;}
+
+.mr00 {margin-right: 0 !important;}
+.mr05 {margin-right: 5px !important;}
+.mr10 {margin-right: 10px !important;}
+.mr15 {margin-right: 15px !important;}
+.mr20 {margin-right: 20px !important;}
+.mr25 {margin-right: 25px !important;}
+.mr30 {margin-right: 30px !important;}
+.mr35 {margin-right: 35px !important;}
+.mr40 {margin-right: 40px !important;}
+
+
+/*
+  text-align
+-------------------------------------------------------------------- */
+.left {text-align: left !important;}
+.center {text-align: center !important;}
+.right {text-align: right !important;}
+.top {vertical-align: top !important;}
+.middle {vertical-align: middle !important;}
+.bottom {vertical-align: bottom !important;}
+
+
+/*
+  Float
+-------------------------------------------------------------------- */
+.fleft {float: left !important;}
+.fright {float: right !important;}
+.noneDisplay{ display:none !important;}
+
+/*
+  Font Size
+-------------------------------------------------------------------- */
+.f10 {font-size: 85%;}
+.f14 {font-size: 114%;}
+.f16 {font-size: 132%;}
+
+
+/*
+  Font Style
+-------------------------------------------------------------------- */
+.bold {font-weight: bold;}
+.italic {font-style: italic;}
+
+
+
+/* ====================================================================
+
+  Link Styles
+
+==================================================================== */
+a:link, a:visited {
+  color:#392e1a;
+  text-decoration: none;
+}
+a:hover, a:active {
+  color: #000;
+  text-decoration: underline;
+}
+/*外部リンクアイコン*/
+img.newwin {
+  vertical-align:middle;
+  padding-left:6px;
+}
+*:first-child+html img.newwin {
+  display: inline-block;
+}
+* html img.newwin {
+  display: inline-block;
+}
+
+
+
+/* ====================================================================
+
+  Body Styles
+
+==================================================================== */
+body {
+  line-height:1.4em;
+  color:#5c4c38;
+  /*color:#988a3d;*/
+  line-height:1.5;
+  font-size:12px;
+}
+body, textarea {
+font-family: "メイリオ", "ＭＳ Ｐゴシック", sans-serif;
+font-size:12px;
+}
+input, select { font-family: Arial, "ＭＳ Ｐゴシック", sans-serif; }
+
+
+/*
+  Heading
+-------------------------------------------------------------------- */
+h1 { font-size:40px; }
+h2 { font-size:32px; }
+h3 { font-size:19px; }
+h4 { }
+h5 { }
+h6 { font-size:18px; }
+
+/* ====================================================================
+
+  Header Styles
+
+==================================================================== */
+#header {
+  /*background: rgba(0, 0, 0, 0.4); RGBを10進数(0～255)で指定、不透明度を0～1.0で指定 */
+  background: #000;
+  width: 100%;
+  height: 55px;
+  border-bottom: 1px solid #3b3b3b;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+* html #header {
+  position: absolute;
+  top: expression(eval(document.documentElement.scrollTop+0));
+}
+
+#headerInner {
+  width: 960px;
+  margin: 0 auto;
+  height: 55px;
+}
+
+#headerInner .logo {
+  margin: 18px 0 0 18px;
+  float: left;
+}
+
+#headerInner .logo {
+  margin: 18px 0 0 0;
+  float: left;
+}
+
+#headerInner .sf-menu {
+  margin: 24px 0 0 50px;
+  float: left;
+}
+
+#headerInner .enbtn {
+  margin: 18px 18px 0 0;
+  float: right;
+}
+
+/* ====================================================================
+
+  Footer Styles
+
+==================================================================== */
+#footer {
+  height: 82px;
+  width: 100%;
+}
+
+#footer .footBar {
+  height: 47px;
+  width: 100%;
+  background: url(../img/footerbg02.png) no-repeat center center;
+  margin: 0;
+}
+
+#footTextSlider {
+  margin: auto;
+  padding: 0;
+  width: 956px;
+  height: 47px;
+}
+
+#footer .footUnder {
+  margin: 6px auto 0;
+  padding: 0;
+  width: 960px;
+  line-height: 0;
+}
+
+#footer .footUnder .privacypolicy {
+  margin: 0 0 0 16px;
+  padding: 0;
+  float: left;
+  height: 19px;
+}
+
+#footer .footUnder .copyright {
+  margin: 0 17px 0 0;
+  padding: 0;
+  float: right;
+  height: 19px;
+}
+
+#footer2 {
+  margin: 6px auto 0;
+  padding: 0;
+  width: 960px;
+  line-height: 0;
+}
+
+#footer2 .privacypolicy {
+  margin: 0 0 0 16px;
+  padding: 0;
+  float: left;
+  height: 19px;
+}
+
+#footer2 .copyright {
+  margin: 0 17px 0 0;
+  padding: 0;
+  float: right;
+  height: 19px;
+}
+
+/*
+  PageTop
+-------------------------------------------------------------------- */
+.pagetop {
+  width: 642px;
+  padding: 25px 0 0 0;
+  margin: 0 0 0;
+  text-align: right;
+}
+
+.pagetop2 {
+  width: 640px;
+  padding: 25px 0 0 4px;
+  margin: 0 0 0;
+  text-align: right;
+}

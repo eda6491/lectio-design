@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+#intromovie {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 710px;
+  height: 100px;
+  /*margin-left: -355px; /* half of width */
+  /*margin-top: -50px;  /* half of height */
+}
+
+.bgstretcher-page { text-align: center; }

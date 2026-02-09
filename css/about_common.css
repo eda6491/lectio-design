@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+/* ====================================================================
+
+  "ABOUT US" Common Styles
+
+==================================================================== */
+body {
+  background: url(../img/bg_2.webp) no-repeat 50% 50%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#contents {
+  width: 800px;
+  text-align: left;
+  margin: 133px auto 50px;
+}
+
+#contents .head {
+  width: 800px;
+  text-align: right;
+}
+
+#contents .head ul {
+  display: block;
+  padding: 0;
+  width: 327px;
+  height: 39px;
+  background: rgba(255, 255, 255, 0.6);
+  margin: 0 0 0 473px;
+}
+
+#contents .head ul li { float: left; }
+
+#contents .con_inner {
+  width: 642px;
+  padding: 40px 79px;
+  margin: 0 0 0;
+  background: rgba(255, 255, 255, 0.6);
+
+}
+
+#contents .con_inner h3 { padding: 0 0 26px; }

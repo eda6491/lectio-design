@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+@import url('business_common.css');
+
+/*
+  Consulting Styles
+-------------------------------------------------------------------- */
+#contents .con_inner {
+  width: 642px;
+  padding: 40px 79px;
+  margin: 0;
+  background: rgba(255, 255, 255, 0.6);
+}
+
+#contents .con_inner h3 {
+  padding: 0 0 26px;
+}
+
+#contents .con_inner .con {
+  width: 642px;
+  margin: 0 0 30px;
+}
+
+#contents .con_inner .con .LArea {
+  width: 500px;
+  float: left;
+}
+
+#contents .con_inner .con .LArea p {
+  font-size: 12px;
+  color: #000;
+  line-height: 1.5;
+}
+
+#contents .con_inner .con .Rimg {
+  width: 128px;
+  float: right;
+}
+
+#contents .con_inner p {
+  font-size: 12px;
+  color: #000;
+  margin: 10px 0 0;
+}

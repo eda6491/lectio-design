@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+/*
+  Business Styles
+-------------------------------------------------------------------- */
+body {
+  background: url(../../img/bg_3.webp) no-repeat 50% 50%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#contents {
+  width: 800px;
+  text-align: left;
+  margin: 172px auto 50px;
+}
+
+#contents .con_inner {
+  width: 650px;
+  padding: 40px 75px;
+  margin: 0 0 0;
+  background: rgba(255, 255, 255, 0.6);
+
+}
+
+#contents .con_inner h3 { padding: 0 0 26px 4px; }
+
+#contents .con_inner h4 {
+  padding: 30px 0 15px 4px;
+  margin: 0;
+  font-size: 10px;
+  text-indent: 0;
+}
+
+#contents .con_inner .lead { margin: 0 0 20px 4px; }
+
+#contents .con_inner .underNav {
+  width: 650px;
+  margin: 44px 0 0 0;
+}
+#contents .con_inner .underNav img {
+  float: left;
+  margin: 0 1px 0 0;
+  padding: 0;
+}
+#contents .con_inner .underNav img.sp0 {
+  margin: 0 0 0 0;
+  padding: 0;
+}
+
+#contents .con_inner p {
+  font-size: 12px;
+  color: #000;
+  margin: 0 0 0 4px;
+  width: 642px;
+}
